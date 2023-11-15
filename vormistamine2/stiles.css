@@ -1,0 +1,45 @@
+/* labelid kõrvuti */
+@media (min-width: 410px) {
+
+}
+
+/* labelid üksteise all */
+@media (max-width: 979px) {
+    h1 {
+        text-align: center;
+    }
+
+    .form-example {
+        background-color: rgb(240, 240, 240);
+        padding: 10px;
+        border: 2px solid black;
+    }
+    
+    .form-row {
+        padding-bottom: 5px;
+        box-sizing: border-box;
+    }
+    .form-row input {
+        align-content: right;
+    }
+}
+
+#subnit {
+    width: 200px;
+    height: 25px;
+    padding: 5px;
+    font: bold 0,8em sans-serif;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background: none;
+    cursor: pointer;
+}
+
+input, textarea {
+width: 150px;
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+/* lisa vormile paddingud, marginid, kujundus */

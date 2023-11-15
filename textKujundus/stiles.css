@@ -1,0 +1,99 @@
+html {
+    font-size: 22px;
+}
+body {
+    display: inline-block;
+    font-family: 'PT Sans', sans-serif;
+}
+/* https://www.w3schools.com/charsets/ref_emoji.asp */
+@counter-style space-counter {
+    system: cyclic;
+    symbols: "\2705";
+    suffix: " ";
+}
+@counter-style missing {
+    system: cyclic;
+    symbols: "\274C";
+    suffix: " ";
+}
+
+ul {
+    font-size: 19px;
+}
+li {
+    list-style-type: clover;
+    text-align: left;
+    list-style-type: space-counter;
+}
+#puudub {
+    list-style-type: clover;
+    text-align: left;
+    list-style-type: missing;
+}
+
+.paketid {
+    display: flex;
+    max-width: 780px;
+    margin: 0 auto;
+}
+.pakett {
+    background: white;
+    border: 3px solid #40ff5093;
+    flex: 1;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin:10px;
+}
+
+.price {
+    font-size: 40px;
+}
+#priceContainer {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.discountText {
+    color: gray;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+#discount {
+    border: 2px solid black;
+    border-radius: 80px;
+    color: black;
+    font-size: 10px;
+    padding: 0px 5px 0px 5px;
+}
+
+#norm {
+    color: gray;
+    font-size: 15px;
+    margin-top: 0;
+}
+
+.textid {
+    display: inline-block;
+}
+.textid p {
+    color: gray;
+    font-size: 15px;
+}
+
+.button {
+    border: 2px solid rgb(51, 51, 51);
+    text-align: center;
+    font-size: 24px;
+    border-radius: 5px;
+    width: 100%;
+    display:inline-block;
+    height: 40px;
+    color: black;
+    padding-top: 5px;
+}
+#blue {
+    background-color: rgb(34, 160, 233);
+    border-color: rgb(34, 160, 233);
+    color: white;
+}

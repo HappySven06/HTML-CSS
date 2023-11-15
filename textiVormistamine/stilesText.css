@@ -1,0 +1,34 @@
+h2{
+    color: black;
+    font-style: bold;
+    text-decoration: wavy underline;
+}
+
+a{
+    color: black;
+    font-style: bold;
+    text-decoration: dotted underline;
+}
+
+.esimene-font{
+    font-family: "Arial Black";
+    color: aqua;
+}
+
+.teine-font{
+    font-family: 'Teko', sans-serif;
+    color: red;
+}
+
+.kolmas-font{
+    font-family: pf-uniform, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: blue;
+}
+
+.kolmas-font h2{
+    color: black;
+    font-style: bold;
+    text-decoration: overline underline;
+}

@@ -1,0 +1,14 @@
+.raam {
+    width: 900px;
+    height: 900px;
+    margin: 0 auto;
+    background: url("../image/koordinaadid.png") bottom left;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.raam svg {
+    margin: 0 auto;
+    width: 800px;
+    height: 800px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sven Laht Kodutööd</title>
+  <link rel="stylesheet" href="stiles.css" type="text/css">
+  <link rel="icon" type="image/x-icon" href="../image/sPick.png">
+</head>
+
+<body>
+  <h1>Paigutamine 2: Skaleeruv vorm</h1>
+  <form action="" method="get" class="form-example">
+    <div class="form-row">
+      <label for="name">Sinu nimi:</label>
+      <input type="text" name="name" id="name" placeholder="Sinu nimi" required>
+    </div>
+    <div class="form-row" class="error">
+      <label for="email">Sinu e-mail:</label>
+      <input type="email" name="email" id="email" placeholder="Sinu email" required>
+    </div>
+    <div class="form-row">
+      <label for="b-day">Sinu sünnikuupäev:</label>
+      <input type="date" id="b-day" name="b-day" value="2018-07-22" min="1991-01-02" max="2021-12-31">
+    </div>
+    <div class="form-row">
+      <label for="phone">Sinu tel number:</label>
+      <input type="tel" id="phone" name="phone" required>
+    </div>
+    <div class="form-row">
+      <label for="story">Kirjuta endast:</label>
+      <textarea id="story" name="story" placeholder="..." rows="5" cols="33"></textarea>
+    </div>
+    <!-- lisada juurde veel 5 välja
+    https://developer.mozilla.org/en-US/docs/Learn/Forms/HTML5_input_types
+    https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
+    -->
+    <div class="form-row">
+      <input type="range" id="volume" name="volume" min="0" max="10" />
+      <label for="volume">Kui palju on sul kannatust?</label>
+    </div>
+    <div class="form-row">
+      <input type="radio" id="huey" name="drone" value="huey" checked />
+      <label for="huey">Mees</label>
+    </div>
+    <div class="form-row">
+      <input type="radio" id="huey" name="drone" value="huey" />
+      <label for="huey">Naine</label>
+    </div>
+    <div class="form-row">
+      <label for="pass">Parool (vähemalt 8 tähemätki):</label>
+      <input type="password" id="pass" name="password" minlength="8" required />
+    </div>
+    <div class="form-row">
+      <input type="checkbox" id="scales" name="scales" required/>
+      <label for="scales">Kas nõustud kasutaja tingimustega</label>
+    </div>
+
+    <div class="form-row">
+      <input type="submit" value="Saada" id="subnit">
+    </div>
+  </form>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+h1 {
+    color:#A3D395;
+}
+
+h2 {
+    color:#709665;
+}
+
+#firstDiv {
+    border-bottom: 1px solid #707070;
+    font: normal normal normal 18px/26px Times;
+}
+
+#secondDiv {
+    font: normal normal normal 18px/26px Times;
+}
+
+.link {
+    color:#50A8FF;
+}
+
+.link:hover{ /*Hiirega lingi peale liikumisel tekkiv effekt*/
+    opacity:0.8; /*Tee element pisut läbipaistvaks*/
+}
+
+#first {
+    font-size: 24px
+}
+
+#ball {
+    font: normal normal bold 18px/26px Times;
+}

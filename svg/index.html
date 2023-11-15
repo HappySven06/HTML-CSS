@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Sven Laht Kodutööd</title>
+		<link rel="stylesheet" href="stiles.css" type="text/css">
+		<link rel="icon" type="image/x-icon" href="../image/sPick.png">
+		<!-- Jquery on vajalik lugeda veebilehele sisse, et javascript skriptid töötaksid -->
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" data-name="TokenSigning" data-by="Web-eID extension" src="chrome-extension://ncibgoaomkmdpilpocfeponihegamlic/token-signing-page-script.js"></script>
+	</head>
+	<body>
+		<div class="raam">
+			<svg width="800px" height="800px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+				<!-- katus -->
+				<!-- points="x,y x,y ..."  -->
+				<polyline id="katus" points="360,400 400,350 440,400" style="fill: red;"/>			
+				<!-- sein -->
+				<rect x="375" y="401" height="40" width="50" style="fill: brown;"/>			
+				<!-- uks -->
+				<rect x="405" y="411" height="30" width="20" style="fill: rgb(0, 139, 35);"/>
+				<!-- aken -->
+				<rect x="380" y="411" height="15" width="15" style="fill: rgb(0, 95, 139);"/>
+				<!-- uksenupp -->
+				<circle cx="411" cy="425" r="2" />
+
+				<rect x="700" y="400" height="40" width="40" style="fill: yellow;">
+					<animateTransform attributeName="transform"
+						type="rotate"
+						from="0 400 400" to="360 400 400"
+						begin="0s" dur="10s"
+						repeatCount="indefinite"
+					/>
+				</rect>
+				<rect x="100" y="400" height="40" width="40" style="fill: rgb(184, 184, 184);">
+					<animateTransform attributeName="transform"
+						type="rotate"
+						from="0 400 400" to="360 400 400"
+						begin="0s" dur="10s"
+						repeatCount="indefinite"
+					/>
+				</rect>
+
+				<rect x="-50" y="200" height="50" width="100" style="fill: rgb(199, 199, 199);">
+					<animateMotion
+					path="M10,50 q60,50 100,0 q60,-50 800,-30"
+					begin="0s" dur="10s" repeatCount="indefinite"
+					/>
+				</rect>
+				<rect x="-150" y="150" height="50" width="100" style="fill: rgb(199, 199, 199);">
+					<animateMotion
+					path="M10,50 q60,50 100,0 q60,-50 800,-30"
+					begin="0s" dur="10s" repeatCount="indefinite"
+					/>
+				</rect>
+				<rect x="-250" y="100" height="50" width="100" style="fill: rgb(199, 199, 199);">
+					<animateMotion
+					path="M10,50 q60,50 100,0 q60,-50 800,-30"
+					begin="0s" dur="10s" repeatCount="indefinite"
+					/>
+				</rect>
+
+				<rect x="0" y="440" height="360" width="800" style="fill: rgb(0, 255, 64);"/>
+			</svg>
+		  </div>
+	</body>
+</html>
