@@ -1,0 +1,27 @@
+body {
+    background: url("../image/background.png") fixed;
+    background-size: cover;
+}
+.tulbad {
+    display: flex;
+    max-width: 780px;
+    margin: 0 auto;
+}
+.tulp {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+li {
+    margin-bottom: 4rem;
+}
+li:hover {
+    background-color: white;
+}
+li:hover h2 {
+    color: black;
+}
+h2 {
+    font-family: sans-serif;
+}
+    
