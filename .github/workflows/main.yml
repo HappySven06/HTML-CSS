@@ -28,7 +28,7 @@ jobs:
 
       with:
 
-        server: https://svenlaht.webhosting.tptlive.ee/
+        server: svenlaht.webhosting.tptlive.ee
 
         username: ${{ secrets.ftp_username }}
 
