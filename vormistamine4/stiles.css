@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+}
+
+footer {
+    background-color: gray;
+}
+
+header {
+    background-color: #ef5842;
+}
+
+main {
+    background-color: beige;
+}
+
+article {
+    background-color: antiquewhite;
+}
+
+aside {
+    background-color: aqua;
+}
+
+nav {
+    background-color: aliceblue;
+}
+
+footer, header, main, article, aside, nav {
+    padding: 1rem;
+    border-radius: 30px;
+}
+
+h1 + p {
+    color: red;
+}
+
+h1 ~ a {
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+h1 ~ a:hover {
+    color: gray;
+}
+
+section > p {
+    color: gray !important;
+}
+
