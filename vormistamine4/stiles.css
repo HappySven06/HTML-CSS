@@ -82,6 +82,9 @@ li {
     list-style-type: clover;
     list-style-type: space-counter;
 }
+li::after {
+    content: url(../image/sPick.png);
+}
 
 
 .dropdown {
