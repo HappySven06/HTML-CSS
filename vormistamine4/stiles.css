@@ -73,6 +73,15 @@ section > p {
     flex-direction: column;
 }
 
+@counter-style space-counter {
+    system: cyclic;
+    symbols: "\2705";
+    suffix: " ";
+}
+li {
+    list-style-type: clover;
+    list-style-type: space-counter;
+}
 
 
 .dropdown {
@@ -104,7 +113,6 @@ section > p {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
-  
 
   .dropdown-content a {
     float: none;
@@ -113,6 +121,9 @@ section > p {
     text-decoration: none;
     display: block;
     text-align: left;
+  }
+  .dropdown-content a:nth-child(2n) {
+    background-color: rgb(39, 100, 153);
   }
   
   .dropdown-content a:hover {
