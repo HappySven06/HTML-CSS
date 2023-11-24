@@ -1,5 +1,7 @@
 body {
     font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 footer {
@@ -12,14 +14,25 @@ header {
 
 main {
     background-color: beige;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
 }
 
 article {
     background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 aside {
     background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    border-radius: 10px;
+    margin-left: 10px;
 }
 
 nav {
@@ -45,5 +58,32 @@ h1 ~ a:hover {
 
 section > p {
     color: gray !important;
+}
+
+.artiklid{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 30vh;
+    justify-content: space-between;
+}
+
+#teineNav {
+    display: flex;
+    flex-direction: column;
+}
+/*
+.sidebar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+main article {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
 }
 
