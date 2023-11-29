@@ -16,47 +16,61 @@
     <ul>
       <li><a href="">Item 1</a></li>
       <li><a href="">Item 2</a></li>
-      <li><a href="">Item 3</a></li>
+      <div class="dropdown">
+				<!--<button class="dropbtn">Item 3-->
+        <li class="dropbtn"><a>Item 3</a></li>
+				<i class="fa fa-caret-down"></i>
+				</button>
+					<div class="dropdown-content">
+						<a href="">1</a>
+						<a href="">2</a>
+						<a href="">3</a>
+						<a href="">4</a>
+					</div>
     </ul>
   </nav>
   <main>
-    <h1>paigutamine 4</h1>
-    <p>flex ja semaatilised elemendid + globaalsed parameetrid</p>
-    <a href="">Link</a>
+    <div id="teineNav">
+      <h1>paigutamine 4</h1>
+      <p>flex ja semaatilised elemendid + globaalsed parameetrid</p>
+      <a href="">Link</a>
+    </div>
 
-    <article>
-      <section>
-        <h2>Sektsioon 1</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos assumenda praesentium, vitae totam sunt officia, similique quasi voluptatem velit nemo a! Accusamus deleniti, inventore libero ipsa eaque saepe expedita quis?</p>
-      </section>
-      <section>
-        <h2>Sektsioon 2</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto maxime perferendis reiciendis deleniti atque sed, velit illo placeat autem suscipit quae non quis sint inventore quaerat consequatur fuga aspernatur repellendus!</p>
-      </section>
-    </article>
+    <div class="artiklid">
+      <article>
+        <section>
+          <h2>Sektsioon 1</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos assumenda praesentium, vitae totam sunt officia, similique quasi voluptatem velit nemo a! Accusamus deleniti, inventore libero ipsa eaque saepe expedita quis?</p>
+        </section>
+        <section>
+          <h2>Sektsioon 2</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto maxime perferendis reiciendis deleniti atque sed, velit illo placeat autem suscipit quae non quis sint inventore quaerat consequatur fuga aspernatur repellendus!</p>
+        </section>
+      </article>
 
-    <article contenteditable="true" draggable="true">
-      <section>
-        <h2 dir="">Sektsioon 3</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto maxime perferendis reiciendis deleniti atque sed, velit illo placeat autem suscipit quae non quis sint inventore quaerat consequatur fuga aspernatur repellendus!</p>
-      </section>
-      <section>
-        <h2>Vorm</h2>
-        <form action="">
-          <input type="text" name="" id="" enterkeyhint="enter" autofocus placeholder="texti" spellcheck="true">
-          <input type="email" inert>
-          <input type="email">
-          <input type="email">
-          <input type="password" name="" id="">
-          <input type="number" name="" id="">
-          <input type="tel" name="" id="">
-          <input type="url">
-          <button>Button</button>
-        </form>
-      </section>
-    </article>
+      <article contenteditable="true" draggable="true">
+        <section>
+          <h2 dir="">Sektsioon 3</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto maxime perferendis reiciendis deleniti atque sed, velit illo placeat autem suscipit quae non quis sint inventore quaerat consequatur fuga aspernatur repellendus!</p>
+        </section>
+        <section>
+          <h2>Vorm</h2>
+          <form action="">
+            <input type="text" name="" id="" enterkeyhint="enter" autofocus placeholder="texti" spellcheck="true">
+            <input type="email" inert>
+            <input type="email">
+            <input type="email">
+            <input type="password" name="" id="">
+            <input type="number" name="" id="">
+            <input type="tel" name="" id="">
+            <input type="url">
+            <button>Button</button>
+          </form>
+        </section>
+      </article>
+    </div>
     <a accesskey="a" href="https://neeger.ee/">as</a>
-    <aside>
+    <aside class="sidebar">
       <h3>Sidepar</h3>
     </aside>
   </main>

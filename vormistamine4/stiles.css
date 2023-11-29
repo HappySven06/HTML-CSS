@@ -1,5 +1,7 @@
 body {
     font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 footer {
@@ -12,14 +14,25 @@ header {
 
 main {
     background-color: beige;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
 }
 
 article {
     background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 aside {
     background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    border-radius: 10px;
+    margin-left: 10px;
 }
 
 nav {
@@ -47,3 +60,79 @@ section > p {
     color: gray !important;
 }
 
+.artiklid{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 30vh;
+    justify-content: space-between;
+}
+
+#teineNav {
+    display: flex;
+    flex-direction: column;
+}
+
+@counter-style space-counter {
+    system: cyclic;
+    symbols: "\2705";
+    suffix: " ";
+}
+li {
+    list-style-type: clover;
+    list-style-type: space-counter;
+}
+li::after {
+    content: url(../image/sPick.png);
+}
+
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: rgb(255, 0, 0);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0; 
+  }
+
+  .dropdown:hover .dropbtn {
+    background-color:#333 ;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #969696;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .dropdown-content a:nth-child(2n) {
+    background-color: rgb(39, 100, 153);
+  }
+  
+  .dropdown-content a:hover {
+    background-color:#333;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
