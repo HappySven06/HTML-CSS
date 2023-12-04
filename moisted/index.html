@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Sven Laht Kodutööd</title>
+		<link rel="stylesheet" href="stiles.css" type="text/css">
+		<link rel="icon" type="image/x-icon" href="image/sPick.png">
+		<!-- Jquery on vajalik lugeda veebilehele sisse, et javascript skriptid töötaksid -->
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" data-name="TokenSigning" data-by="Web-eID extension" src="chrome-extension://ncibgoaomkmdpilpocfeponihegamlic/token-signing-page-script.js"></script>
+	</head>
+	<body>
+        <div class="header" id="myHeader">
+    		<div class="navbar">
+    			<a href="../index.html">Tagasi</a>
+    		</div>
+    	</div>
+
+		<table>
+			<thead>
+				<tr>
+					<th>#</th>
+					<th>Inglise keel</th>
+					<th>Eesti keel</th>
+					<th>Seletus</th>
+					<th>Näide</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>charset</td>
+					<td>märgistik</td>
+					<td>Märgistik on märgikoodide kogum, mis määrab, kuidas tekst tuleks kodeerida või tõlgendada, näiteks UTF-8.</td>
+					<td>-</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>inline element</td>
+					<td>sisse-line element</td>
+					<td>Sisse-line element on HTML/CSS termin, mis kirjeldab elementi, mis paigutub rea sees ja ei võta enda alla terve rida, vaid ainult selle osa, mida ta vajab.</td>
+					<td><code>&lt;span&gt;See on sisse-line element&lt;/span&gt;</code></td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>block element</td>
+					<td>plokk-element</td>
+					<td>Plokk-element on HTML/CSS termin, mis täidab kogu olemasoleva laiuse ja tavaliselt algab uuel realt, eraldades ennast teistest elementidest.</td>
+					<td><code>&lt;div&gt;See on plokk-element&lt;/div&gt;</code></td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>padding</td>
+					<td>täitevahemik</td>
+					<td>Täitevahemik on CSS omadus, mis määrab elemendi sisemise tühiku elemendi ja selle piirjoone vahel.</td>
+					<td><code>padding: 10px;</code></td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>margin</td>
+					<td>välisevahemik</td>
+					<td>Välisevahemik on CSS omadus, mis määrab elemendi välise tühiku, luues seeläbi ruumi elemendi ümbritsevate elementide jaoks.</td>
+					<td><code>margin: 20px;</code></td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>shorthand</td>
+					<td>lühend</td>
+					<td>Lühend on tavaliselt kasutatav kiirem või kokkuvõtlikum viis midagi kirjeldada või esitada.</td>
+					<td><code>margin: 10px 20px 10px 20px;</code></td>
+				</tr>
+				<tr>
+					<td>7</td>
+					<td>wireframe</td>
+					<td>juhtjoon</td>
+					<td>Juhtjoon on kavandatud struktuur, mis näitab lehe või rakenduse põhielemente, ilma detailide või kujunduseta.</td>
+					<td>-</td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>Media query</td>
+					<td>meediumipäring</td>
+					<td>Meediumipäring on CSS-i tehnik, mis võimaldab kohandada stiile vastavalt seadme omadustele, näiteks ekraani suurusele.</td>
+					<td><code>@media (max-width: 600px) { /* Stiilid mobiilivaate jaoks */ }</code></td>
+				</tr>
+				<tr>
+					<td>9</td>
+					<td>hover</td>
+					<td>hõljumine</td>
+					<td>Hõljumine viitab seisundile, kus kasutaja suunab kursori mingi elemendi kohale, tavaliselt põhjustades mingit visuaalset muutust.</td>
+					<td><code>a:hover { color: red; }</code></td>
+				</tr>
+				<tr>
+					<td>10</td>
+					<td>border-box</td>
+					<td>piirikast</td>
+					<td>Piirikast on CSS mudel, kus elemendi suurus sisaldab piirjooni ja täitevahemikku, mitte ainult sisu.</td>
+					<td><code>box-sizing: border-box;</code></td>
+				</tr>
+				<tr>
+					<td>11</td>
+					<td>padding-box</td>
+					<td>täitevahemiku kast</td>
+					<td>Täitevahemiku kast on CSS mudel, kus elemendi suurus sisaldab ainult piirjooni ja täitevahemikku, mitte sisu.</td>
+					<td><code>box-sizing: padding-box;</code></td>
+				</tr>
+				<tr>
+					<td>12</td>
+					<td>scroll</td>
+					<td>kerimine</td>
+					<td>Kerimine viitab lehe või elemendi liikumisele ekraanil, kui sisu ei mahu korraga kuvatavale alale.</td>
+					<td><code>overflow: auto;</code></td>
+				</tr>
+				<tr>
+					<td>13</td>
+					<td>content stacking</td>
+					<td>sisu kuhjamine</td>
+					<td>Sisu kuhjamine viitab erinevate sisuüksuste paigutamisele üksteise peale, näiteks kihiliste elementide loomisele.</td>
+					<td><code>position: relative; z-index: 2;</code></td>
+				</tr>
+				<tr>
+					<td>14</td>
+					<td>hypertext</td>
+					<td>hüpertekst</td>
+					<td>Hüpertekst on tekst, mis sisaldab lingitud elemente, mis võimaldavad hüpiknavigatsiooni teiste dokumentide või osade vahel.</td>
+					<td><code>&lt;a href="https://www.example.com"&gt;Kliki siia&lt;/a&gt;</code></td>
+				</tr>
+				<tr>
+					<td>15</td>
+					<td>hyperweb</td>
+					<td>hüpervõrk</td>
+					<td>Hüpervõrk võib viidata laiemale interneti kontseptsioonile, kus seotud andmed on omavahel tugevalt seotud.</td>
+					<td>-</td>
+				</tr>
+				<tr>
+					<td>16</td>
+					<td>viewport</td>
+					<td>vaateaken</td>
+					<td>Vaateaken viitab kasutatavale ekraani alale, kus veebileht või rakendus on nähtav.</td>
+					<td><code>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</code></td>
+				</tr>
+				<tr>
+					<td>17</td>
+					<td>semantic markup</td>
+					<td>semantiline märgistus</td>
+					<td>Semantiline märgistus tähendab HTML-märgiste kasutamist nende tähenduse järgi, mitte ainult välimuse määramiseks.</td>
+					<td><code>&lt;header&gt;Lehe päis&lt;/header&gt;</code></td>
+				</tr>
+				<tr>
+					<td>18</td>
+					<td>checkbox</td>
+					<td>märkeruut</td>
+					<td>Märkeruut on graafiline kasutajaliidese element, mis võimaldab kasutajal valida mitmest valikust ühe või mitu.</td>
+					<td><code>&lt;input type="checkbox"&gt; Vali mind</code></td>
+				</tr>
+				<tr>
+					<td>19</td>
+					<td>radio buttons</td>
+					<td>raadionupud</td>
+					<td>Raadionupud on graafiline kasutajaliidese element, kus kasutaja saab valida ainult ühe valiku mitme võimaluse seast.</td>
+					<td>
+						<code>&lt;input type="radio" name="group"&gt; Valik 1</code><br>
+						<code>&lt;input type="radio" name="group"&gt; Valik 2</code>
+					</td>
+				</tr>
+				<tr>
+					<td>20</td>
+					<td>dropdown select</td>
+					<td>rippmenüü valik</td>
+					<td>Rippmenüü valik võimaldab kasutajal valida ühe võimaluse rippmenüüst.</td>
+					<td>
+						<code>&lt;select&gt;</code><br>
+						<code>&lt;option value="1"&gt;Valik 1&lt;/option&gt;</code><br>
+						<code>&lt;option value="2"&gt;Valik 2&lt;/option&gt;</code><br>
+						<code>&lt;/select&gt;</code>
+					</td>
+				</tr>
+				<tr>
+					<td>21</td>
+					<td>input</td>
+					<td>sisend</td>
+					<td>Sisend on kasutajaliidese element, mis võimaldab kasutajal sisestada teksti või muud teavet.</td>
+					<td><code>&lt;input type="text" placeholder="Sisesta siia"&gt;</code></td>
+				</tr>
+				<tr>
+					<td>22</td>
+					<td>disabled</td>
+					<td>keelatud</td>
+					<td>Keelatud tähendab, et teatud kasutajaliidese element või funktsioon ei ole hetkel aktiivne ega kasutatav.</td>
+					<td><code>&lt;button disabled&gt;Klõpsa mind&lt;/button&gt;</code></td>
+				</tr>
+				<tr>
+					<td>23</td>
+					<td>tooltip</td>
+					<td>tööriip</td>
+					<td>Tööriip on kasutajaliidese element, mis kuvab kontekstipõhist teavet, kui kasutaja liigub kursoriga elemendi kohale.</td>
+					<td><code>&lt;span title="Lisateave"&gt;Hõljuge siin&lt;/span&gt;</code></td>
+				</tr>
+				<tr>
+					<td>24</td>
+					<td>toggle switch</td>
+					<td>lülituslüliti</td>
+					<td>Lülituslüliti võimaldab kasutajal vahetada kahe seisu vahel, näiteks sisse ja välja.</td>
+					<td>
+						<code>&lt;label class="switch"&gt;</code><br>
+						<code>&lt;input type="checkbox"&gt;</code><br>
+						<code>&lt;span class="slider"&gt;&lt;/span&gt;</code><br>
+						<code>&lt;/label&gt;</code>
+					</td>
+				</tr>
+				<tr>
+					<td>25</td>
+					<td>autocomplete</td>
+					<td>automaatne täitmine</td>
+					<td>Automaatne täitmine viitab funktsioonile, mis pakub kasutajale automaatseid soovitusi või täidab sisestuse automaatselt.</td>
+					<td>
+						<code>&lt;input type="text" name="country" list="countries"&gt;
+						&lt;datalist id="countries"&gt;
+						&lt;option value="Estonia"&gt;
+						&lt;option value="Finland"&gt;
+						&lt;option value="Latvia"&gt;
+						&lt;option value="Lithuania"&gt;
+						&lt;/datalist&gt;</code>
+					</td>
+				</tr>
+				<tr>
+					<td>26</td>
+					<td>slider</td>
+					<td>liugur</td>
+					<td>Liugur võimaldab kasutajal muuta väärtust loendites, liikudes liugurit üles või alla.</td>
+					<td>
+						<code>&lt;input type="range" min="1" max="100" value="50" id="mySlider"&gt;</code>
+					</td>
+				</tr>
+				<tr>
+					<td>27</td>
+					<td>root element</td>
+					<td>juurelement</td>
+					<td>Juurelement on HTML-dokumendi kõige ülemine element, millele kõik teised elemendid on alamhulgad.</td>
+					<td>-</td>
+				</tr>
+				<tr>
+					<td>28</td>
+					<td>grid layout</td>
+					<td>võrgustikuladestik</td>
+					<td>Võrgustikuladestik on CSS-i omadus, mis võimaldab luua veebilehe paigutust ruudustikulise struktuuriga.</td>
+					<td>
+						<code>.container {
+						  display: grid;
+						  grid-template-columns: auto auto auto;
+						}</code>
+					</td>
+				</tr>
+				<tr>
+					<td>29</td>
+					<td>UI library</td>
+					<td>kasutajaliidese raamatukogu</td>
+					<td>Kasutajaliidese raamatukogu on kogumik eelnevalt loodud komponente ja stiile, mida saab kasutada kiireks ja järjepidevaks kasutajaliidese arendamiseks.</td>
+					<td>-</td>
+				</tr>
+				<tr>
+					<td>30</td>
+					<td>sidebar</td>
+					<td>küljeriba</td>
+					<td>Küljeriba on lehe või rakenduse külgmine ala, kus tavaliselt asuvad täiendavad navigeerimise või kontrolli elemendid.</td>
+					<td>
+						<code>&lt;div class="sidebar"&gt;
+						  &lt;p&gt;Navigatsioon&lt;/p&gt;
+						  &lt;a href="#home"&gt;Avaleht&lt;/a&gt;
+						  &lt;a href="#about"&gt;Teave&lt;/a&gt;
+						  &lt;a href="#contact"&gt;Kontakt&lt;/a&gt;
+						&lt;/div&gt;</code>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+	<script type="text/javascript" src="Index.js"></script>
+</html>
